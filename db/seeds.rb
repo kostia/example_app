@@ -10,3 +10,5 @@
 end
 
 User.find_by(email: 'alice@scrivito.com').update_attributes(admin: true)
+
+User.reindex
