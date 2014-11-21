@@ -99,6 +99,7 @@ GEM
       responders
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
+    devise-bootstrap-views (0.0.3)
     diff-lcs (1.2.5)
     dotenv (1.0.2)
     dotenv-rails (1.0.2)
@@ -249,6 +250,7 @@ DEPENDENCIES
   bootstrap-sass (~> 3.2.0)
   coffee-rails (~> 4.0.0)
   devise
+  devise-bootstrap-views
   dotenv-rails
   handlebars_assets (~> 0.12.0)
   jbuilder (~> 2.0)

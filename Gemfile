@@ -38,3 +38,4 @@ gem 'thin'
 
 gem 'mysql2'
 gem 'devise'
+gem 'devise-bootstrap-views'

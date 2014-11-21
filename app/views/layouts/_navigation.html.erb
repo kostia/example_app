@@ -15,7 +15,7 @@
 
       <div class="navbar-right">
         <% if user_signed_in? %>
-          Angemeldet als <%= current_user.email %>.
+          Angemeldet als <%= current_user.email %>
           <%= link_to 'Abmelden', :destroy_user_session, method: :delete, class: 'btn btn-danger' %>
         <% else %>
           <%= link_to 'Anmelden', :new_user_session, class: 'btn btn-primary' %>
