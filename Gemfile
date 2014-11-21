@@ -35,3 +35,6 @@ gem 'pry-rescue'
 gem 'pry-stack_explorer'
 gem 'quiet_assets'
 gem 'thin'
+
+gem 'mysql2'
+gem 'devise'
