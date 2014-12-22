@@ -12,10 +12,11 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'bootstrap-sass', '~> 3.2.0'
 
 # Scrivito Gems
-gem 'scrivito',                 path: '/Users/kostia/Code/scrivito/scrivito'
-gem 'scrivito_sdk',             path: '/Users/kostia/Code/scrivito/scrivito_sdk'
-gem 'scrivito_content_browser', path: '/Users/kostia/Code/scrivito/scrivito_content_browser'
-gem 'scrivito_editors',         path: '/Users/kostia/Code/scrivito/scrivito_editors'
+version = '0.30.0.202.217541043'
+gem 'scrivito',                 version
+gem 'scrivito_sdk',             version
+gem 'scrivito_content_browser', version
+gem 'scrivito_editors',         version
 
 group :development, :test do
   gem 'spring'
@@ -25,7 +26,7 @@ group :development, :test do
 end
 
 gem 'handlebars_assets', '~> 0.12.0'
-gem 'less-rails'
+#gem 'less-rails'
 gem 'momentjs-rails'
 gem 'therubyracer', require: 'v8'
 gem 'underscore-rails'
