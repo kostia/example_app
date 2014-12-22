@@ -2,6 +2,8 @@
 //= require jquery_ujs
 //
 //= require scrivito
+//= require google_maps_widget/application
+//= require google_maps_widget/editing
 //
 //= require_self
 
