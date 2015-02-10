@@ -16,4 +16,6 @@ scrivito.on('load', function() {
       icon: 'scrivito-resourcebrowser-icon-image'
     }
   };
+
+  scrivito.register_default_obj_class_for_content_type({'*/*': null});
 });
