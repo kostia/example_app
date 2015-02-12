@@ -2,6 +2,7 @@
 //= require jquery_ujs
 //
 //= require scrivito
+//= require scrivito-medium-editor
 //= require google_maps_widget/application
 //= require google_maps_widget/editing
 //
