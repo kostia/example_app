@@ -1,0 +1,7 @@
+<%= scrivito_details_for 'Tags' do %>
+  <%= scrivito_tag :div, widget, :tags do %>
+    <% widget.tags.each do |tag| %>
+      <%= tag %>
+    <% end %>
+  <% end %>
+<% end %>
