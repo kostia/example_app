@@ -11,8 +11,13 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'bootstrap-sass', '~> 3.2.0'
 
-# Scrivito Gems
-gem 'scrivito', '0.65.0'
+path '../scrivito' do
+  gem 'scrivito_sdk'
+  gem 'scrivito_content_browser'
+  gem 'scrivito_editors'
+  gem 'scrivito'
+  gem 'scrivito_development'
+end
 
 group :development, :test do
   gem 'spring'
